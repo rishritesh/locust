@@ -1,0 +1,6 @@
+host ,endpoint ,"payload
+",,,,,,"
+"
+http://localhost:8080/esb/send,/userEvents,"{""ext_user_id"":""0eaa15abfdd1e122b2aa1c39234d9e6191a1cca655bdbdcdb73ca97421d958ae"",""event_key"":""refer_earn"",""event_data"":{""refer_earn"":0}}",,,,,,
+http://localhost:8080/esb/send,/anotherEvent,"{""ext_user_id"":""1fbb15abfdd1e122b2aa1c39234d9e6191a1cca655bdbdcdb73ca97421d958be"",""event_key"":""another_event"",""event_data"":{""some_data"":1}}",,,,,,
+http://localhost:8080/esb/send,/yetAnotherEvent,"{""ext_user_id"":""2gcc15abfdd1e122b2aa1c39234d9e6191a1cca655bdbdcdb73ca97421d958cf"",""event_key"":""yet_another_event"",""event_data"":{""other_data"":2}}",,,,,,
